@@ -83,5 +83,7 @@ public class MoviesManagerTest {
         Movies[] actual = manager.getAll();
         Movies[] expected = new Movies[]{six, five, four, three, two, one};
         assertArrayEquals(expected, actual);
+
+        
     }
 }
